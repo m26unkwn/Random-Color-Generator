@@ -2,6 +2,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Nunito';
+    background-color: #f7958e;
+
   }
   img{
       width: 200px;
@@ -14,7 +16,7 @@ body{
 #container{
     margin: 0;
     width: 100vh;
-    height: 600px;
+    height: 654px;
     background-color: #fd4d3f;
     margin: 0 auto;
 
@@ -27,3 +29,42 @@ h1{
     margin-bottom: 100px;
     color: #141c3a;
 }
+
+p{
+    font-size: 20px;
+    width: 400px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    color: white;
+  }
+
+  #color-button{
+    width: 350px;
+    height: 100px;
+    border: none;
+    font-size: 24px;
+    background-color: #141c3a;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    font-family: 'Nunito';
+  
+  }
+  #next-button{
+    width: 350px;
+    height: 100px;
+    border: none;
+    font-size: 24px;
+    background-color: #141c3a;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Nunito';
+  }
